@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>方寸有灵首页</title>
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- //meta tags -->
+<!--fonts-->
+<link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!--//fonts-->
+</head>
+<body>
+<!-- header -->
+	<header>
+		<div class="container">
+			<!-- nav -->
+			<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				<div class="logo">
+					<h1><a href="index.html">方寸有灵</a></h1>
+					<h1><img src="images/logo2.png"onload=javascript:DrawImage(this,45,9); boder=0></h1>
+				</div >
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+					  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav">
+							  <li class="active"><a href="index.html">首页</a></li>
+							  <li><a href="#Neighbor">附近</a></li>
+							  <li><a href="#DoctorCaring">医护</a></li>
+							  <li class="dropdown">
+								  <a href="#Adoption" class="dropdown-toggle" data-toggle="dropdown">领养 </a>
+							  </li>
+							  <li><a href="#Communication">社区</a></li>
+						  </ul>
+						  <a href="myself_message.html" ><img src="./images/home_personimage.png"id="imges"></a>
+					  </div>
+				<!-- /.navbar-collapse -->
+			  </div>
+			  <!-- /.container-fluid -->
+			</nav> 
+			<!-- //nav -->
+		</div>
+	</header>
+	<!-- //header -->
+	<!-- 附近-->
+	<div class="w3layouts-slider"
+		 style="width: 100%;position: relative;height:660px;background-image:url(images/home_background.png);background-repeat: no-repeat;
+                background-size: cover;">
+		<div class="content">
+			<div class="content0">
+				<div class="maincontent">
+					<img src="images/home_logo.png"onload=javascript:DrawImage(this,410,100); boder=0>
+				</div>
+			</div>
+			<div id="content1">
+				<h1><p>方寸有灵</p></h1>
+			</div>
+			<div class="content2">
+				<h1 href="#"><a>-----使用第三方账号登录------</a></h1>
+			</div>
+			<div class="login_image">
+				<div class="login">
+					<img src="images/qq.png">
+
+					<img src="images/weixin.png">
+
+					<img src="images/weibo.png">
+				</div>
+			</div>
+			<div class="content3">
+				<h1 href="#"><a>-----使用手机号/邮箱登录-----</a></h1>
+			</div>
+			<form action = "/UserLogin/Sample1/loginServlet">
+
+				<div class="loginform">
+
+					<div class="loginform_input">
+						<input type="text" style="color: #388E8E;width:220px;height:30px" name="name" placeholder="输入手机号/邮箱"/>
+					</div >
+					<div class="passward_input">
+						<input type="password"  name="password" placeholder="输入密码"/>
+					</div>
+					<div class="login_input">
+						<input type="button"  value="登录" />
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+			</form>
+			<div id="forgetAndregister">
+				<h1 href="#"><a1>忘记密码</a1></h1>
+				<h1 href="#"><a2>立即注册</a2></h1>
+			</div>
+		</div>
+	</div>
+	<!-- //banner-slider -->
+	<!-- negibor -->
+	<div class="mainNeighbor">
+		<div id="Neighbor" style="width:100%;height: 12px">
+
+		</div>
+		<div class="titlesetting">
+			<div class="titleName" >
+			     <h1><p>附近</p></h1>
+			</div>
+		</div>
+		<div id="negiborTitle">
+			<div class="neighbor1">
+				<div class="neighbor4" >
+			         <h1 ><a href="stragle_annimans.html">流浪动物 </a></h1>
+						<h2><p>发现附近的流浪动物并将它们的照片和有关信息上
+							传至附近流浪动物，让更多的人了解并接纳他们，
+							并且达到救助，保护和收养它们的最终目的</p>
+							</h2>
+					 <h3 ><a href="stragle_annimans.html"><img src="images/arrive.png"></a></h3>
+				</div>
+			</div>
+			<div class="neighbor2">
+				<div class="neighbor4">
+				      <h1 ><a href="confirm_annimals.html">认证动物</a></h1>
+					<h2><p>认证动物是经过救助并被收容所暂时收养的流浪动物，
+						它们拥有健康证明和系统的救助经历,爱心人士可以
+						在这里，在能力范围内选择收养它们</p></h2>
+					 <h3 ><a href="confirm_annimals.html"><img src="images/arrive.png"></a></h3>
+				</div>
+			</div>
+			<div class="neighbor3">
+				<div class="neighbor4">
+			        <h1><a href="neighbor_people.html">附近的人</a></h1>
+			        <h2>
+						<p>附近的人包括附近范围内的人以及他们
+							发布过的附近动物的信息，可以更多的
+							了解附近流浪动物的系统化信息</p>
+				     </h2>
+					<h3  style="margin-top: 50px"><a href="neighbor_people.html"><img src="images/arrive.png"></a></h3>
+				 </div>
+			</div>
+		</div>
+		<div class="neighbor_images">
+			<img src="images/neighbor_dog.png"onload=javascript:DrawImage(this,1334,334); boder=0>
+		</div>
+	</div>
+	<!-- //医护 -->
+    <div id="DoctorCaring" style="width:100%;height: 12px">
+
+    </div>
+	<div class="hosptitle">
+			<div class="titlesetting">
+				  <div class="titleName" >
+					   <h1><p>医护</p></h1>
+				  </div>
+		    </div>
+		<div class="hospyitlebackground">
+            <div class="hosptitlebackground1">
+				<div class="hosptitle2">
+					<a href="Animal_paradise.html" ><p>动物医院</p></a>
+				</div>
+				<div class="hosptitlek">
+					<a href="Animal_paradise.html" ><img style="width: 40px;height: 45px;margin-top: 20px;margin-left: 50px;"
+														 src="images/hosptitle1.png"onload=javascript:DrawImage(this,40,45); boder=0></a>
+				</div>
+			</div>
+		    <div class="hosptitlebackground2" >
+				<div class="hosptitle2">
+					<a href="Animal_hosptitle.html">动物乐园</a>
+				</div>
+				<div class="hosptitlek">
+					<img style="width: 40px;height: 45px;margin-top: 20px;margin-left: 50px;"
+						 src="images/hosptitle2.png"onload=javascript:DrawImage(this,40,45); boder=0>
+				</div>
+			</div>
+		    <div class="hosptitlebackground3">
+				<div class="hosptitle1">
+					<a href="Animal_harbor.html">动物收容所</a>
+				</div>
+				<div class="hosptitlek">
+					<img style="width: 40px;height: 45px;margin-top: 20px;margin-left: 50px;"
+						 src="images/hosptitle3.png"onload=javascript:DrawImage(this,40,45); boder=0>
+				</div>
+			</div>
+		    <div class="hosptitleBackground4">
+				<div class="hosptitle1">
+					<a href="self_careing.html"> 个人救护点</a>
+				</div>
+				<div class="hosptitlek">
+					<img style="width: 40px;height: 45px;margin-top: 20px;margin-left: 50px;"
+						 src="images/hosptitle4.png"onload=javascript:DrawImage(this,40,45); boder=0>
+				</div>
+			</div>
+		</div>
+		<div class="titlesetting">
+			<div class="titleName">
+				<h1><p>推荐医护</p></h1>
+			</div>
+		</div>
+        <div class="hosptitleRecommend">
+			<div class="hosptitleimage">
+				<a href="self_careing.html"> <img src="images/hosptitle5.png"onload=javascript:DrawImage(this,200,200); boder=0></a>
+			</div>
+			<div class="hosptitleDoctorMessage">
+				<div class="doctormessage">
+					<p>丹尼斯▪史密斯：个户</p>
+					<p> 99：评分</p>
+					<p>泰迪绝育手术及术后处理：方向</p>
+					<p>武汉市洪山区珞南街道文秀街升升公寓:地点</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 领养 -->
+    <div id="Adoption" style="width:100%;height: 12px">
+
+    </div>
+    <div class="Adopt">
+		<div class="titlesetting">
+			<div class="titleName" >
+				<h1><p>收养</p></h1>
+			</div>
+		</div>
+		<div class="Adoptpage1">
+			<div class="Adoptcontent1">
+                 <img src="images/home_adopt.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent2">
+				<img src="images/dog1.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent3">
+				<img src="images/strage_picture1.png"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent4">
+				<img src="images/home_adopt.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+		</div>
+		<div class="Adoptpage2"style="margin-top: 400px">
+			<div class="Adoptcontent1">
+				<img src="images/dog1.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent2">
+				<img src="images/strage_picture1.png"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent3">
+				<img src="images/home_adopt.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+			<div class="Adoptcontent4">
+				<img src="images/dog1.jpg"onload=javascript:DrawImage(this,200,300); boder=0>
+			</div>
+		</div>
+        <div  style="margin-top: 720px">
+			<h1 ><a href="adoption.html" style="margin-left:1115px;font-size: 20px;color: #FFFFFF;">More</a></h1>
+		</div>
+	</div>
+    <!-- //社区 -->
+<div id="Communication" style="width:100%;height: 12px">
+
+</div>
+<div class="community" >
+	<div class="titlesetting">
+		<div class="titleName">
+			<h1><p>社区</p></h1>
+		</div>
+	</div>
+	<div class="cummunityAnnimals">
+		<div class="annimals1">
+			<div class="xinde1">
+				<a href="communication.html">心得交流</a>
+			</div>
+			<img src="images/tiaoxingkuang.png"onload=javascript:DrawImage(this,260,1.25); boder=0>
+			<div class="newsContent">
+				<h1><a href="communication.html">1.养动物都比较麻烦</a></h1>
+				<h1><a>2.如何养狗狗</a></h1>
+				<h1><a>3.如何与动物进行交流</a></h1>
+				<h1><a>4.我与流浪狗的故事</a></h1>
+				<h1><a>5.参加爱心救援活动心得</a></h1>
+				<h1><a>6.去流浪狗基地送食物</a></h1>
+
+			</div>
+		</div>
+		<div class="annimals2">
+			<div class="xinde1">
+				<a href="animals_knowledge.html"> 动物新闻</a>
+			</div>
+			<img src="images/tiaoxingkuang.png"onload=javascript:DrawImage(this,260,1.25); boder=0>
+			<div class="newsContent">
+				<h1><a>1.反虐待家畜提案通过</a></h1>
+				<h1><a>2.乌鲁木齐保安道歉承诺保护流浪狗</a></h1>
+				<h1><a>3.那些年，不一样的老人与狗</a></h1>
+				<h1><a>4.10条流浪狗陪伴老汉踏上返乡路</a></h1>
+				<h1><a>5.“小窝”要挪窝狗狗再流浪</a></h1>
+				<h1><a>6.四位老人照顾千余流浪狗</a></h1>
+				<h1><a>7.流浪狗救助组织hope for paws</a></h1>
+				<h1><a>8.天津“流浪猫狗绝育活动”启动</a></h1>
+				<h1><a>9.开心！10条狗狗都找到新主人啦</a></h1>
+
+			</div>
+		</div>
+		<div class="annimals3">
+			<div class="xinde1">
+				<a>动物知识</a>
+			</div>
+			<img src="images/tiaoxingkuang.png"onload=javascript:DrawImage(this,260,1.25); boder=0>
+			<div class="newsContent">
+				<h1><a>1.猫的外形、毛皮的差异</a></h1>
+				<h1><a>2.猫、狗生病的特征</a></h1>
+				<h1><a>3.喂养动物的一些基本常识介绍</a></h1>
+				<h1><a>4.常见动物生活习性的介绍</a></h1>
+				<h1><a>5.犬感冒的防止</a></h1>
+				<h1><a>6.狗宝宝的膳食标准</a></h1>
+				<h1><a>7.猫狗呕吐、腹泻的一般治疗方法</a></h1>
+				<h1><a>8.动物的免疫和除虫</a></h1>
+			</div>
+		</div>
+	</div>
+	<div  style="margin-top: 500px">
+	</div>
+</div>
+<!-- footer -->
+<!-- footer -->
+<footer class="footer">
+	<div class="footercontainer">
+		<div class="footer1" >
+			<div class="footer2">
+				<h1 href="#"><a>友情链接</a></h1>
+				<h1><a>|</a></h1>
+				<h1 href="#"><a>联系我们</a></h1>
+				<h1><a>|</a></h1>
+				<h1 href="#"><a>广告投放</a></h1>
+				<h1><a>|</a></h1>
+				<h1 ><a href="index.html">返回顶部</a></h1>
+			</div>
+		</div>
+		<div class="footer3">
+                 <p>免费声明：所有流浪动物信息内容系用户自行发布，其真实性、合法性由发布人负责，本网不承担任何法律责任</p>
+		</div>
+	</div>
+</footer>
+	<!-- //footer -->
+
+<script type="text/javascript" src="js/PictureSelfAdapt.js"></script>
+<script src="js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript">
+    $(function(){
+        $('.navbar-nav li a').click(function(){
+            $(this).addClass('active');
+            $('.navbar-nav li a').not(this).removeClass('active');
+        });
+    });
+</script>
+</body>
+</html>
