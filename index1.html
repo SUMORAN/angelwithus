@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>方寸有灵首页</title>
+<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+<!-- fontawesome css -->
+<link href="css/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Bootstrap stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://cdn.webfont.youziku.com/webfonts/nomal/103290/19673/5929a165f629d818a88455e2.css' rel='stylesheet' type='text/css' />
+<!-- stylesheet -->
+
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- //meta tags -->
+<!--fonts-->
+<link href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&subset=latin-ext" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+<!-- header -->
+<header>
+  <div class="container"> 
+    <!-- nav -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div class="logo">
+            <h1><a href="index1.html">方寸有灵</a></h1>
+            <h1><img src="source/images/logo2.png"onload=javascript:DrawImage(this,45,9); boder=0></h1>
+          </div >
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index1.html">首页</a></li>
+            <li><a href="neighbor.html">附近</a></li>
+            <li><a href="DoctorCaring.html">医护</a></li>
+            <li class="dropdown"> <a href="Adoption.html" class="dropdown-toggle" data-toggle="dropdown">领养 </a> </li>
+            <li><a href="Communication.html">社区</a></li>
+          </ul>
+          <a href="#" ><img src="./source/images/home_personimage.png"id="imges"></a> 
+        </div>
+        <!-- /.navbar-collapse --> 
+      </div>
+      <!-- /.container-fluid --> 
+    </nav>
+    <!-- //nav --> 
+  </div>
+</header>
+<!-- //header --> 
+<!--首页-->
+<div class="w3layouts-slider"
+     style="width: 100%;position: relative;height:100%;background-image:url(source/images/home_background.png);background-repeat: no-repeat;background-size: cover;">
+    <audio autoplay controls="smallconsole" loop="-1"> 
+    <source src="source/bgsong.mp3" type="audio/mp3" /> 
+    <embed src="source/bgsong.mp3" type="audio/mp3"/>your browser does not support the audio tag</audio>
+    <p id="intro0" class="cssaefc7baf21937a">
+    <!--此处使用的在有字库中生成的字体，账号是张靓的手机号-->
+    <marquee direction=right onmouseover=this.stop()
+    onmouseout=this.start() width=400px height=50px align=center>欢迎来到方寸有灵</marquee><br/><br/>
+    在这里，你可以看到你身边的小动物们过着怎样的生活，它们是否需要你的帮助。我们希望在这里，您能给予小动物们您的温暖，同时给其他如您一般温暖的人一些鼓励。</p>
+</div>
+
+<!-- footer --> 
+<!-- footer -->
+<footer class="footer">
+  <div class="footercontainer">
+    <div class="footer1" >
+      <div class="footer2">
+        <h1 href="#"><a>友情链接</a></h1>
+        <h1><a>|</a></h1>
+        <h1 href="#"><a>联系我们</a></h1>
+        <h1><a>|</a></h1>
+        <h1 href="#"><a>广告投放</a></h1>
+        <h1><a>|</a></h1>
+        <h1 ><a href="index.html">返回首页</a></h1>
+      </div>
+    </div>
+    <div class="footer3">
+      <p>免费声明：所有流浪动物信息内容系用户自行发布，其真实性、合法性由发布人负责，本网不承担任何法律责任</p>
+    </div>
+  </div>
+</footer>
+<!-- //footer -->
+<script type="text/javascript" src="js/PictureSelfAdapt.js"></script>
+<script src="../css/bootstrap-3.3.7/js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript">
+    $(function(){
+        $('.navbar-nav li a').click(function(){
+            $(this).addClass('active');
+            $('.navbar-nav li a').not(this).removeClass('active');
+        });
+    });
+</script>
+</body>
+</html>
